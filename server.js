@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use('/countries', countries)
 
 
-mongoose.connect('mongodb+srv://memuhammadusman786:abcdefgh@cluster0.to0d3sc.mongodb.net/', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://memuhammadusman786:abcdefgh@cluster0.mkbqzox.mongodb.net/', { useNewUrlParser: true });
 
 const db = mongoose.connection;
 
