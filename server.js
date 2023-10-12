@@ -13,7 +13,7 @@ app.use('/countries', countries)
 app.use('/payments', payments)
 
 
-mongoose.connect('mongodb://localhost:27017/visasite', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://memuhammadusman786:abcdefgh@cluster0.mkbqzox.mongodb.net/', { useNewUrlParser: true });
 
 const db = mongoose.connection;
 
